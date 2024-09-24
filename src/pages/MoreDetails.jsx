@@ -42,6 +42,7 @@ import { IoPeople } from "react-icons/io5";
 
     
   return (
+    <div className='ml-[270px] mt-[90px]'>
     <div className='text-black font-serif text-6xl text-center ms-5  '><u>More Details</u>
     <h1 className='text-left mt-10 text-4xl flex '> <IoTime className='mr-4'/><u>Time</u>: 1:00 PM </h1>
     <h1 className='text-left mt-10 text-4xl flex'> <MdOutlineDateRange className='mr-4'/><u>Date</u>: 8th Sept 2024</h1>
@@ -54,7 +55,7 @@ import { IoPeople } from "react-icons/io5";
     <div className=' flex justify-center items-stretch'>
     <table class="table-auto text-2xl bg-neutral-200">
   <thead>
-    <tr className='py-4' >
+    <tr className='py-4 bg-gradient-to-t from-neutral-400 to-neutral-50 ...' >
       <th className='border-separate border border-slate-600 ... p-10'>s.No</th>
       <th className='border border-slate-600 ... p-10 '>Name</th>
       <th className='border border-slate-600 ... p-10'>ID</th>
@@ -149,7 +150,7 @@ import { IoPeople } from "react-icons/io5";
       </button>
 
     </div>
-   
+   </div>
   )
 }
 // export default MoreDetails;

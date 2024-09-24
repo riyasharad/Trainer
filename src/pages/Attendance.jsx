@@ -33,7 +33,7 @@ function Attendance() {
    
      return (
       
-       <div className="p-8">
+       <div className="p-8 ml-[275px] mt-[90px]">
          <h2 className="text-2xl font-semibold text-gray-700 mb-6">Attendance</h2>
          <div className="overflow-x-auto">
            <table className="min-w-full bg-white border border-gray-200 shadow-md">

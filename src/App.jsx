@@ -9,6 +9,10 @@ import MoreDetails4 from "./pages/MoreDetails4";
 import MoreDetails5 from "./pages/MoreDetails5";
 import MoreDetails7 from "./pages/MoreDetails7";
 import MoreDetails9 from "./pages/MoreDetails9";
+import Calendar from "./pages/Calendar";
+import SimpleCalendar from "./pages/Calendar";
+import Profile from "./pages/Profile";
+
 export default function App() {
   return (
     <div>
@@ -23,6 +27,10 @@ export default function App() {
           <Route path="MoreDetails5" element={<MoreDetails5/>}/>
           <Route path="MoreDetails7" element={<MoreDetails7/>}/>
           <Route path="MoreDetails9" element={<MoreDetails9/>}/>
+          <Route path="Calendar" element={<Calendar/>}/>
+          <Route path="SimpleCalendar" element={<SimpleCalendar/>}/>
+          <Route path="Profile" element={<Profile/>}/>
+          
         </Route>
       </Routes>
     </div>
